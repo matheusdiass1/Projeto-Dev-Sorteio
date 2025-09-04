@@ -1,12 +1,43 @@
-<h1>Projeto Dev Sorteio</h1>
-<br>
-<p>Este projeto consiste em um aplicativo web simples que gera e exibe um número aleatório dentro de um intervalo definido pelo usuário. Utilizando HTML, CSS e JavaScript, 
-a interface permite ao usuário definir um valor mínimo e máximo para o sorteio e, ao clicar em um botão, exibe o número gerado na tela de forma dinâmica.</p>
+<h1 align="center">🎲 Dev Sorteio</h1>
 
-<h2>Tecnologias Utilizadas:</h2>
-<br>
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
-<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
+O Dev Sorteio é um projeto simples e interativo desenvolvido com HTML, CSS e JavaScript, que gera um número aleatório dentro de um intervalo definido pelo usuário.
+O sistema garante algumas regras para validar os números antes do sorteio e exibe o resultado diretamente na tela utilizando alert().
 
+<h1 align="center">🚀 Funcionalidades</h1>
+
+🔢 Usuário define um intervalo de números (início e fim).
+
+✅ Validação de regras:
+
+O primeiro número não pode ser maior que o segundo.
+
+O intervalo precisa ser válido para o sorteio acontecer.
+
+🎲 Geração de um número aleatório dentro do intervalo escolhido.
+
+📢 Exibição do número sorteado com alert().
+
+<h1 align="center">🛠️ Tecnologias utilizadas</h1>
+
+HTML5 → estrutura da aplicação.
+
+CSS3 → estilização da interface.
+
+JavaScript (ES6+) → validação, regras e geração do número aleatório.
+
+<h1 align="center">📚 Conceitos aplicados</h1>
+
+Math.random() e Math.floor() → gerar números aleatórios dentro do intervalo definido.
+
+Estruturas condicionais (if/else) → validação das regras.
+
+Manipulação do DOM → captura dos valores inseridos pelo usuário.
+
+alert() → exibição do resultado final.
+
+<h1 align="center">🎯 Objetivo</h1>
+
+Este projeto foi criado para fins de estudo, com o objetivo de praticar lógica de programação, validações em JavaScript e manipulação de eventos e entradas do usuário.
+
+<h1 align="center">📷 Demonstração</h1>
 <img src="https://github.com/matheusdiass1/Projeto-Dev-Sorteio/blob/main/img/sorteio.png?raw=true">
